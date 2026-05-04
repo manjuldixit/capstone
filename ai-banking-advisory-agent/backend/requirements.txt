@@ -1,0 +1,15 @@
+langgraph==0.0.52
+langchain==0.1.0
+langchain-core==0.1.0
+langchain-community>=0.0.10
+pandas==2.0.3
+python-dotenv==1.0.0
+pydantic==2.0.0
+typing-extensions==4.7.1
+openai>=1.0.0 ; extra == "openai"
+anthropic>=0.1.0 ; extra == "anthropic"
+requests>=2.0.0
+# Phase 4: Retrieval & Embeddings
+chromadb>=0.3.21
+sentence-transformers>=2.2.0
+numpy>=1.24.0

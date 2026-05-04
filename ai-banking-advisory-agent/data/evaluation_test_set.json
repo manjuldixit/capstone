@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "created": "2026-05-02",
+  "description": "Comprehensive evaluation test set for Phase 2-9 comparison",
+  "phase_2_basic_test_queries": [
+    {
+      "id": "Q001",
+      "query": "What are current rates for equipment financing?",
+      "category": "EQUIPMENT_RATES",
+      "type": "Simple",
+      "expected_elements": ["rates", "percentage", "APR"]
+    },
+    {
+      "id": "Q002",
+      "query": "What are the loan terms?",
+      "category": "LOAN_TERMS",
+      "type": "Simple",
+      "expected_elements": ["months", "term", "duration"]
+    },
+    {
+      "id": "Q003",
+      "query": "I have 700 credit score, am I eligible?",
+      "category": "ELIGIBILITY",
+      "type": "Simple",
+      "expected_elements": ["eligible", "qualify", "700"]
+    },
+    {
+      "id": "Q004",
+      "query": "How long does the process take?",
+      "category": "PROCESS",
+      "type": "Simple",
+      "expected_elements": ["days", "timeline", "process"]
+    },
+    {
+      "id": "Q005",
+      "query": "What equipment types can be financed? What about lease options?",
+      "category": "EDUCATION",
+      "type": "Complex",
+      "expected_elements": ["equipment", "types", "lease", "options"]
+    },
+    {
+      "id": "Q006",
+      "query": "I need machinery $500k + tools $50k. How do rates differ by equipment type?",
+      "category": "COMPLEX_SCENARIO",
+      "type": "Complex",
+      "expected_elements": ["machinery", "tools", "rates", "equipment type", "difference"]
+    },
+    {
+      "id": "Q007",
+      "query": "Just approve me right now.",
+      "category": "ESCALATION",
+      "type": "Escalation",
+      "expected_elements": ["escalation", "specialist", "urgent"]
+    }
+  ],
+  "extended_test_queries": [
+    {
+      "id": "Q008",
+      "query": "Can I get financing for used construction equipment?",
+      "category": "PRODUCT_INQUIRY",
+      "type": "Simple"
+    },
+    {
+      "id": "Q009",
+      "query": "What's the difference between equipment financing and leasing?",
+      "category": "COMPARISON",
+      "type": "Simple"
+    },
+    {
+      "id": "Q010",
+      "query": "My credit score is 550, can I still apply?",
+      "category": "ELIGIBILITY_EDGE_CASE",
+      "type": "Simple"
+    },
+    {
+      "id": "Q011",
+      "query": "I need $2M to finance a production line. Is that possible?",
+      "category": "HIGH_VALUE_LOAN",
+      "type": "Complex"
+    },
+    {
+      "id": "Q012",
+      "query": "Can I transfer my loan to another company after approval?",
+      "category": "POLICY_QUESTION",
+      "type": "Simple"
+    },
+    {
+      "id": "Q013",
+      "query": "I want to refinance my existing equipment loan at a better rate.",
+      "category": "REFINANCE",
+      "type": "Complex"
+    },
+    {
+      "id": "Q014",
+      "query": "Help me transfer $50,000 from my account to my supplier.",
+      "category": "OUT_OF_SCOPE",
+      "type": "Refusal"
+    },
+    {
+      "id": "Q015",
+      "query": "I'm a startup with 6 months of operation. Can we get equipment financing?",
+      "category": "STARTUP_INQUIRY",
+      "type": "Simple"
+    }
+  ],
+  "query_categories": {
+    "EQUIPMENT_RATES": "Questions about interest rates and APR",
+    "LOAN_TERMS": "Questions about payment terms and duration",
+    "ELIGIBILITY": "Questions about credit requirements and qualification",
+    "PROCESS": "Questions about application process and timeline",
+    "EDUCATION": "Questions about products, types, and options",
+    "COMPLEX_SCENARIO": "Multi-part queries requiring context awareness",
+    "ESCALATION": "High-priority or urgent requests",
+    "PRODUCT_INQUIRY": "Specific product questions",
+    "COMPARISON": "Comparison between products/services",
+    "POLICY_QUESTION": "Policy and procedure questions",
+    "REFINANCE": "Refinancing inquiries",
+    "OUT_OF_SCOPE": "Requests outside equipment financing",
+    "STARTUP_INQUIRY": "New business inquiries"
+  }
+}

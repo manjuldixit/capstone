@@ -1,0 +1,122 @@
+{
+  "before": {
+    "query": "What equipment financing options do you offer?",
+    "response": "We finance a wide range of equipment including industrial machinery, commercial vehicles, construction equipment, IT equipment, and specialized tools. We offer multiple financing options: direct equipment loans, equipment leasing, and used equipment purchase programs. Each option has different rates and terms optimized for different equipment types and business needs.\n\n[CONTEXT FROM KNOWLEDGE BASE]\n\n\u2022 From products (relevance: 81.00%):\n  Product: Used Equipment Purchase Financing\n\nDescription: Financing for pre-owned equipment with competitive rates for established businesses\n\nRate Ran...\n\n\u2022 From products (relevance: 80.80%):\n  Product: Commercial Equipment Financing\n\nDescription: Flexible financing for commercial equipment purchases with competitive rates\n\nRate Range: 6.5% -...\n\n[For complete details, please ask for more information about specific topics]",
+    "category": "education",
+    "confidence": 0.7999999999999999,
+    "sources": [
+      {
+        "type": "product_overview",
+        "product_name": "Used Equipment Purchase Financing",
+        "product_id": "used_equipment_purchase",
+        "source": "products"
+      },
+      {
+        "product_id": "commercial_equipment_financing",
+        "product_name": "Commercial Equipment Financing",
+        "type": "product_overview",
+        "source": "products"
+      },
+      {
+        "product_id": "construction_equipment_leasing",
+        "type": "product_overview",
+        "source": "products",
+        "product_name": "Construction Equipment Leasing"
+      }
+    ],
+    "phase": "phase_6_planning_memory",
+    "session_id": "baseline_20260503_151158",
+    "timestamp": "2026-05-03T15:11:59.697076",
+    "memory_used": false,
+    "memory_summary": null
+  },
+  "after": {
+    "query": "What equipment financing options do you offer?",
+    "response": "As a reminder from our earlier conversation, What equipment financing options do you offer?; equipment. Here is the most relevant answer I can provide now:\n\nWe finance a wide range of equipment including industrial machinery, commercial vehicles, construction equipment, IT equipment, and specialized tools. We offer multiple financing options: direct equipment loans, equipment leasing, and used equipment purchase programs. Each option has different rates and terms optimized for different equipment types and business needs.\n\n[CONTEXT FROM KNOWLEDGE BASE]\n\n\u2022 From products (relevance: 81.00%):\n  Product: Used Equipment Purchase Financing\n\nDescription: Financing for pre-owned equipment with competitive rates for established businesses\n\nRate Ran...\n\n\u2022 From products (relevance: 80.80%):\n  Product: Commercial Equipment Financing\n\nDescription: Flexible financing for commercial equipment purchases with competitive rates\n\nRate Range: 6.5% -...\n\n[For complete details, please ask for more information about specific topics]\n\nFor example, if you finance a CNC machine for manufacturing, you may choose an Equipment Term Loan with a 60-month schedule and a fixed-rate repayment plan.",
+    "category": "education",
+    "confidence": 0.7999999999999999,
+    "sources": [
+      {
+        "product_name": "Used Equipment Purchase Financing",
+        "type": "product_overview",
+        "source": "products",
+        "product_id": "used_equipment_purchase"
+      },
+      {
+        "source": "products",
+        "product_id": "commercial_equipment_financing",
+        "product_name": "Commercial Equipment Financing",
+        "type": "product_overview"
+      },
+      {
+        "product_name": "Construction Equipment Leasing",
+        "source": "products",
+        "type": "product_overview",
+        "product_id": "construction_equipment_leasing"
+      }
+    ],
+    "phase": "phase_7_adaptive_behavior",
+    "session_id": "baseline_20260503_151158",
+    "timestamp": "2026-05-03T15:12:00.239624",
+    "metadata": {
+      "memory_used": true,
+      "memory_summary": "What equipment financing options do you offer?; equipment",
+      "adaptive_applied": "examples",
+      "adaptive_explanation": "Collected 1 feedback entries with an average rating of 2.0. The agent is adapting to include practical examples and scenario-based guidance.",
+      "adaptive_action": "examples"
+    },
+    "memory_used": true,
+    "memory_summary": "What equipment financing options do you offer?; equipment",
+    "adaptive_applied": true,
+    "adaptive_action": "examples"
+  },
+  "feedback": {
+    "query": "What equipment financing options do you offer?",
+    "response": "We finance a wide range of equipment including industrial machinery, commercial vehicles, construction equipment, IT equipment, and specialized tools. We offer multiple financing options: direct equipment loans, equipment leasing, and used equipment purchase programs. Each option has different rates and terms optimized for different equipment types and business needs.\n\n[CONTEXT FROM KNOWLEDGE BASE]\n\n\u2022 From products (relevance: 81.00%):\n  Product: Used Equipment Purchase Financing\n\nDescription: Financing for pre-owned equipment with competitive rates for established businesses\n\nRate Ran...\n\n\u2022 From products (relevance: 80.80%):\n  Product: Commercial Equipment Financing\n\nDescription: Flexible financing for commercial equipment purchases with competitive rates\n\nRate Range: 6.5% -...\n\n[For complete details, please ask for more information about specific topics]",
+    "rating": 2,
+    "comments": "Too vague and general; I need specific financing options with concrete examples.",
+    "tags": [
+      "clarity",
+      "examples"
+    ],
+    "timestamp": "2026-05-03T15:11:59.699100"
+  },
+  "follow_up": {
+    "query": "What documents do I need to prepare for the loan application?",
+    "response": "As a reminder from our earlier conversation, equipment; equipment; What equipment financing options do you offer?. Here is the most relevant answer I can provide now:\n\nOur equipment financing application process typically takes 2-5 business days. Step 1: Submit application with equipment details. Step 2: Credit review. Step 3: Equipment appraisal. Step 4: Final approval and funding. Having all documentation ready can speed up the process.\n\n[CONTEXT FROM KNOWLEDGE BASE]\n\n\u2022 From eligibility (relevance: 69.40%):\n  Business Eligibility Requirements:\n\nYears in Business: Minimum N/A years\n\nAnnual Revenue: Minimum $N/A\n\nMonthly Revenue: Minimum $N/A\n\nRequired Docume...\n\n\u2022 From products (relevance: 68.30%):\n  Product: Used Equipment Purchase Financing\n\nDescription: Financing for pre-owned equipment with competitive rates for established businesses\n\nRate Ran...\n\n[For complete details, please ask for more information about specific topics]\n\nFor example, if you finance a CNC machine for manufacturing, you may choose an Equipment Term Loan with a 60-month schedule and a fixed-rate repayment plan.",
+    "category": "process",
+    "confidence": 0.75,
+    "sources": [
+      {
+        "eligibility_type": "business_requirements",
+        "source": "eligibility"
+      },
+      {
+        "type": "product_overview",
+        "source": "products",
+        "product_name": "Used Equipment Purchase Financing",
+        "product_id": "used_equipment_purchase"
+      },
+      {
+        "source": "eligibility",
+        "eligibility_type": "credit_score_tier",
+        "tier": "standard"
+      }
+    ],
+    "phase": "phase_7_adaptive_behavior",
+    "session_id": "baseline_20260503_151158",
+    "timestamp": "2026-05-03T15:12:00.898521",
+    "metadata": {
+      "memory_used": true,
+      "memory_summary": "equipment; equipment; What equipment financing options do you offer?",
+      "adaptive_applied": "examples",
+      "adaptive_explanation": "Collected 1 feedback entries with an average rating of 2.0. The agent is adapting to include practical examples and scenario-based guidance.",
+      "adaptive_action": "examples"
+    },
+    "memory_used": true,
+    "memory_summary": "equipment; equipment; What equipment financing options do you offer?",
+    "adaptive_applied": true,
+    "adaptive_action": "examples"
+  },
+  "adaptation_explanation": "Collected 1 feedback entries with an average rating of 2.0. The agent is adapting to include practical examples and scenario-based guidance."
+}

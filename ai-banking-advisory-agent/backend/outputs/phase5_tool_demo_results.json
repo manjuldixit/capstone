@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "query": "Am I eligible for equipment financing with a 680 credit score?",
+      "response": "Credit score 680 maps to the standard tier. Your credit score is standard. You may qualify for financing, though rates may be higher and additional documentation may be required.",
+      "category": "eligibility",
+      "confidence": 0.85,
+      "sources": [],
+      "phase": "phase_5_tool_usage",
+      "session_id": "baseline_20260503_150004",
+      "timestamp": "2026-05-03T15:00:05.106182",
+      "tool_used": "credit_score_assessment",
+      "tool_output": {
+        "tool_name": "credit_score_assessment",
+        "success": true,
+        "credit_score": 680,
+        "tier": "standard",
+        "recommendation": "Your credit score is standard. You may qualify for financing, though rates may be higher and additional documentation may be required.",
+        "response": "Credit score 680 maps to the standard tier. Your credit score is standard. You may qualify for financing, though rates may be higher and additional documentation may be required."
+      }
+    },
+    {
+      "query": "Calculate the monthly payment for $120,000 over 60 months at 7.5% APR.",
+      "response": "Estimated monthly payment for $120,000.00 over 60 months at 7.50% APR is $2,404.55.",
+      "category": "loan_terms",
+      "confidence": 0.85,
+      "sources": [],
+      "phase": "phase_5_tool_usage",
+      "session_id": "baseline_20260503_150004",
+      "timestamp": "2026-05-03T15:00:05.107959",
+      "tool_used": "loan_payment_calculator",
+      "tool_output": {
+        "tool_name": "loan_payment_calculator",
+        "success": true,
+        "amount": 120000.0,
+        "term_months": 60,
+        "apr": 7.5,
+        "monthly_payment": 2404.55,
+        "response": "Estimated monthly payment for $120,000.00 over 60 months at 7.50% APR is $2,404.55."
+      }
+    },
+    {
+      "query": "What will my payment be?",
+      "response": "Tool usage limit reached for this session. Please ask a simpler question.",
+      "category": "unknown",
+      "confidence": 0.0,
+      "sources": [],
+      "phase": "error",
+      "session_id": "baseline_20260503_150004",
+      "timestamp": "2026-05-03T15:00:05.108362"
+    },
+    {
+      "query": "Transfer $5,000 to my savings account.",
+      "response": "That request is out of scope for this equipment financing assistant.",
+      "category": "unknown",
+      "confidence": 0.0,
+      "sources": [],
+      "phase": "error",
+      "session_id": "baseline_20260503_150004",
+      "timestamp": "2026-05-03T15:00:05.108645"
+    }
+  ]
+}

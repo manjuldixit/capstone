@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "phase": "phase_4_rag_comparison",
+    "timestamp": "2026-05-03T09:52:33.073979",
+    "total_queries": 5,
+    "successful_comparisons": 0
+  },
+  "comparisons": [
+    {
+      "query_number": 1,
+      "query": "What are the equipment financing rates?",
+      "error": "'super' object has no attribute '_validate_input'"
+    },
+    {
+      "query_number": 2,
+      "query": "What credit score do I need?",
+      "error": "'super' object has no attribute '_validate_input'"
+    },
+    {
+      "query_number": 3,
+      "query": "How do I apply for a loan?",
+      "error": "'super' object has no attribute '_validate_input'"
+    },
+    {
+      "query_number": 4,
+      "query": "What types of equipment can I finance?",
+      "error": "'super' object has no attribute '_validate_input'"
+    },
+    {
+      "query_number": 5,
+      "query": "What is the application timeline?",
+      "error": "'super' object has no attribute '_validate_input'"
+    }
+  ],
+  "aggregate_metrics": {
+    "baseline": {
+      "average_confidence": 0,
+      "agent": "EquipmentFinancingBaseline"
+    },
+    "rag": {
+      "average_confidence": 0,
+      "average_sources": 0,
+      "source_coverage": 0,
+      "agent": "EquipmentFinancingRAG"
+    },
+    "improvement": {
+      "average_confidence_delta": 0,
+      "improvement_percentage": 0,
+      "source_enhanced_queries": 0
+    }
+  },
+  "retriever_stats": {
+    "total_queries": 1,
+    "successful_retrievals": 0,
+    "success_rate": 0.0,
+    "average_similarity": 0.0,
+    "sources_used": {},
+    "queries_without_results": 0
+  },
+  "vector_store_stats": {
+    "collection_name": "equipment_financing",
+    "document_count": 8,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "retrieval_stats": {
+      "total_queries": 0,
+      "avg_results": 0,
+      "total_results": 0
+    }
+  }
+}

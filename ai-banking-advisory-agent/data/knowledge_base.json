@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-02",
+  "equipment_financing_products": {
+    "commercial_equipment_financing": {
+      "name": "Commercial Equipment Financing",
+      "rate_range": {
+        "min": 6.5,
+        "max": 9.5,
+        "currency": "USD",
+        "type": "APR"
+      },
+      "term_range": {
+        "min_months": 36,
+        "max_months": 60,
+        "standard_months": 48
+      },
+      "credit_requirements": {
+        "minimum": 620,
+        "preferred": 700,
+        "excellent": 750
+      },
+      "equipment_types": [
+        "Industrial machinery",
+        "Commercial vehicles",
+        "Manufacturing equipment",
+        "Production lines",
+        "Business equipment"
+      ],
+      "description": "Flexible financing for commercial equipment purchases with competitive rates"
+    },
+    "construction_equipment_leasing": {
+      "name": "Construction Equipment Leasing",
+      "rate_range": {
+        "min": 5.5,
+        "max": 8.5,
+        "currency": "USD",
+        "type": "APR"
+      },
+      "term_range": {
+        "min_months": 60,
+        "max_months": 84,
+        "standard_months": 72
+      },
+      "credit_requirements": {
+        "minimum": 600,
+        "preferred": 680,
+        "excellent": 720
+      },
+      "equipment_types": [
+        "Heavy machinery",
+        "Cranes",
+        "Excavators",
+        "Dozers",
+        "Specialized construction equipment"
+      ],
+      "description": "Long-term leasing solutions for construction equipment with predictable costs"
+    },
+    "used_equipment_purchase": {
+      "name": "Used Equipment Purchase Financing",
+      "rate_range": {
+        "min": 7.5,
+        "max": 11.0,
+        "currency": "USD",
+        "type": "APR"
+      },
+      "term_range": {
+        "min_months": 24,
+        "max_months": 48,
+        "standard_months": 36
+      },
+      "credit_requirements": {
+        "minimum": 650,
+        "preferred": 720,
+        "excellent": 760
+      },
+      "equipment_types": [
+        "Pre-owned machinery",
+        "Refurbished equipment",
+        "Secondary market equipment",
+        "Legacy equipment"
+      ],
+      "description": "Financing for pre-owned equipment with competitive rates for established businesses"
+    }
+  },
+  "eligibility_criteria": {
+    "credit_score_tiers": {
+      "excellent": {
+        "min_score": 750,
+        "description": "Best rates and terms available",
+        "max_loan_percentage": 100
+      },
+      "good": {
+        "min_score": 700,
+        "description": "Competitive rates and favorable terms",
+        "max_loan_percentage": 90
+      },
+      "standard": {
+        "min_score": 620,
+        "description": "Standard rates and terms",
+        "max_loan_percentage": 75
+      },
+      "fair": {
+        "min_score": 600,
+        "description": "Higher rates, requires specialist review",
+        "max_loan_percentage": 60
+      }
+    },
+    "business_requirements": {
+      "minimum_business_age_months": 24,
+      "minimum_annual_revenue": 100000,
+      "maximum_debt_to_income_ratio": 0.60
+    },
+    "loan_limits": {
+      "minimum_loan_amount": 5000,
+      "maximum_loan_amount": 2000000,
+      "currency": "USD"
+    }
+  },
+  "application_process": {
+    "step_1": {
+      "name": "Application Submission",
+      "description": "Submit equipment details and financial information",
+      "typical_duration_days": 1
+    },
+    "step_2": {
+      "name": "Credit Review",
+      "description": "Review credit score and financial history",
+      "typical_duration_days": 1
+    },
+    "step_3": {
+      "name": "Equipment Appraisal",
+      "description": "Assess equipment value and condition",
+      "typical_duration_days": 1
+    },
+    "step_4": {
+      "name": "Final Approval & Funding",
+      "description": "Approval and fund disbursement",
+      "typical_duration_days": 2
+    },
+    "total_typical_timeline_days": 5
+  },
+  "frequently_asked_questions": {
+    "faq_1": {
+      "question": "What is the typical interest rate for equipment financing?",
+      "answer": "Rates range from 5.5% to 11% depending on the equipment type, your credit score, and loan term. Commercial equipment typically ranges 6.5-9.5%, construction leasing 5.5-8.5%, and used equipment 7.5-11%."
+    },
+    "faq_2": {
+      "question": "What credit score do I need?",
+      "answer": "The minimum credit score is typically 600. However, 620+ is preferred for competitive rates. Credit scores above 700 qualify for our best rates and terms."
+    },
+    "faq_3": {
+      "question": "How long does the approval process take?",
+      "answer": "The typical approval timeline is 2-5 business days, with most applications completing in 3-4 days. Having all documentation ready can speed up the process."
+    },
+    "faq_4": {
+      "question": "What equipment can be financed?",
+      "answer": "We finance a wide range of equipment including industrial machinery, commercial vehicles, construction equipment, IT equipment, tools, and specialized equipment. Equipment age and condition affect financing availability."
+    },
+    "faq_5": {
+      "question": "What is the maximum loan amount?",
+      "answer": "We offer loans up to $2,000,000 depending on equipment value, your credit profile, and business qualifications. Typical loans range from $5,000 to $1,000,000."
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "products": {
+    "equipment_term_loan": {
+      "name": "Equipment Term Loan",
+      "type": "equipment_financing",
+      "product_code": "ETL-001",
+      "description": "Secured equipment financing for purchase of machinery, production equipment, vehicles, and other business assets",
+      "interest_rate_min": 7.5,
+      "interest_rate_max": 11.5,
+      "loan_amount_min": 100000,
+      "loan_amount_max": 50000000,
+      "tenure_min_months": 24,
+      "tenure_max_months": 180,
+      "processing_fee_pct": 1.5,
+      "documentation_fee": 2500,
+      "prepayment_penalty_pct": 2.0,
+      "equipment_types_eligible": [
+        "Industrial machinery",
+        "Manufacturing equipment",
+        "Construction equipment",
+        "Agricultural equipment",
+        "Transportation vehicles",
+        "Computers and IT equipment",
+        "Medical equipment",
+        "Printing machinery",
+        "Electrical equipment",
+        "HVAC systems"
+      ],
+      "collateral_coverage_pct": 85,
+      "use_cases": [
+        "New equipment purchase",
+        "Equipment upgrade/replacement",
+        "Facility expansion",
+        "Production capacity increase"
+      ],
+      "eligibility": {
+        "min_age": 25,
+        "max_age": 70,
+        "min_annual_revenue": 500000,
+        "business_operating_years": 2,
+        "min_credit_score": 700,
+        "business_types": [
+          "Manufacturing",
+          "Trading",
+          "Services",
+          "Agriculture",
+          "Construction"
+        ]
+      },
+      "approval_time_hours": 120,
+      "approval_time_hours_expedited": 72,
+      "disbursement_method": ["Direct to seller", "To customer account"],
+      "document_requirements": [
+        "Business registration/GST certificate",
+        "2 years income tax returns",
+        "6 months bank statements",
+        "Balance sheet and P&L",
+        "Equipment quotation/invoice",
+        "Ownership proof of equipment",
+        "Directors' personal guarantee"
+      ],
+      "features": [
+        "Flexible tenure up to 15 years",
+        "No collateral margin for small businesses",
+        "Moratorium period available",
+        "Prepayment allowed after 6 months",
+        "Equipment insurance included"
+      ],
+      "insurance_mandatory": true,
+      "insurance_cost_pct": 0.8,
+      "last_updated": "2026-04-21"
+    },
+    "equipment_lease": {
+      "name": "Equipment Lease (On-Balance Sheet)",
+      "type": "equipment_financing",
+      "product_code": "EL-002",
+      "description": "Operating or finance lease for equipment with flexible end-of-term options",
+      "lease_rate_min": 6.5,
+      "lease_rate_max": 10.5,
+      "lease_amount_min": 50000,
+      "lease_amount_max": 100000000,
+      "tenure_min_months": 36,
+      "tenure_max_months": 120,
+      "processing_fee_pct": 2.0,
+      "lease_types": [
+        "Finance lease",
+        "Operating lease",
+        "Hire purchase"
+      ],
+      "equipment_types_eligible": [
+        "Industrial machinery",
+        "Vehicles (commercial/personal)",
+        "IT equipment",
+        "Medical equipment",
+        "Construction equipment",
+        "Office equipment"
+      ],
+      "use_cases": [
+        "Equipment usage without ownership",
+        "Technology upgrade flexibility",
+        "Off-balance sheet financing",
+        "Working capital preservation"
+      ],
+      "eligibility": {
+        "min_age": 25,
+        "max_age": 70,
+        "min_annual_revenue": 300000,
+        "business_operating_years": 1,
+        "min_credit_score": 650,
+        "business_types": [
+          "All business types"
+        ]
+      },
+      "approval_time_hours": 96,
+      "end_of_term_options": [
+        "Return equipment",
+        "Purchase at residual value",
+        "Extend lease"
+      ],
+      "features": [
+        "Low upfront capital requirement",
+        "Maintenance included in lease",
+        "Technology refresh options",
+        "Tax benefits (lease expense deductible)",
+        "Flexible payment terms"
+      ],
+      "maintenance_included": true,
+      "insurance_included": true,
+      "last_updated": "2026-04-21"
+    },
+    "equipment_line_of_credit": {
+      "name": "Equipment Line of Credit",
+      "type": "equipment_financing",
+      "product_code": "ELC-003",
+      "description": "Revolving line of credit secured against existing equipment for working capital needs",
+      "interest_rate_min": 8.0,
+      "interest_rate_max": 12.0,
+      "credit_limit_min": 100000,
+      "credit_limit_max": 25000000,
+      "processing_fee_pct": 1.0,
+      "annual_fee_pct": 0.5,
+      "utilization_fee_pct": 0.25,
+      "collateral_coverage_pct": 40,
+      "use_cases": [
+        "Working capital needs",
+        "Seasonal financing",
+        "Emergency equipment repair/replacement",
+        "Business expansion support"
+      ],
+      "eligibility": {
+        "min_age": 25,
+        "max_age": 70,
+        "min_annual_revenue": 1000000,
+        "business_operating_years": 3,
+        "min_credit_score": 725,
+        "existing_equipment_value_min": 500000
+      },
+      "approval_time_hours": 144,
+      "renewal_period": 12,
+      "features": [
+        "Only pay interest on utilized amount",
+        "Quick fund disbursement (within 24 hours)",
+        "Flexible repayment terms",
+        "Annual renewal with review",
+        "No prepayment penalty"
+      ],
+      "last_updated": "2026-04-21"
+    },
+    "vendor_financing_program": {
+      "name": "Vendor Financing Program",
+      "type": "equipment_financing",
+      "product_code": "VFP-004",
+      "description": "Bank-sponsored financing program for equipment dealers/vendors to offer their customers",
+      "interest_rate_min": 6.5,
+      "interest_rate_max": 10.0,
+      "financing_amount_min": 100000,
+      "financing_amount_max": 100000000,
+      "tenure_min_months": 24,
+      "tenure_max_months": 180,
+      "processing_fee_pct": 1.0,
+      "vendor_commission_pct": 1.5,
+      "eligibility": {
+        "vendor_registration_years": 2,
+        "annual_turnover_min": 1000000,
+        "credit_rating_min": "BBB-"
+      },
+      "customer_eligibility": {
+        "min_age": 25,
+        "min_annual_revenue": 300000,
+        "business_operating_years": 1,
+        "min_credit_score": 650
+      },
+      "approval_time_hours": 48,
+      "approval_time_hours_express": 24,
+      "features": [
+        "Dealer gets instant financing approval",
+        "Customer gets flexible payment terms",
+        "Automated disbursal to vendor",
+        "White-label documentation",
+        "Bulk financing for multiple customers"
+      ],
+      "documentation_simplified": true,
+      "last_updated": "2026-04-21"
+    },
+    "equipment_refinance_loan": {
+      "name": "Equipment Refinance Loan",
+      "type": "equipment_financing",
+      "product_code": "ERL-005",
+      "description": "Refinancing solution to consolidate or reduce equipment loan EMI",
+      "interest_rate_min": 6.0,
+      "interest_rate_max": 10.0,
+      "loan_amount_min": 100000,
+      "loan_amount_max": 50000000,
+      "tenure_min_months": 24,
+      "tenure_max_months": 180,
+      "processing_fee_pct": 0.75,
+      "collateral_coverage_pct": 85,
+      "use_cases": [
+        "Consolidate multiple equipment loans",
+        "Reduce EMI burden",
+        "Convert floating to fixed rates",
+        "Optimize cash flow"
+      ],
+      "eligibility": {
+        "min_age": 25,
+        "max_age": 70,
+        "min_annual_revenue": 500000,
+        "business_operating_years": 2,
+        "min_credit_score": 700,
+        "existing_loan_tenure_remaining_min": 12
+      },
+      "approval_time_hours": 72,
+      "features": [
+        "Lower interest rates",
+        "Extended tenure to reduce EMI",
+        "No prepayment charges on old loan",
+        "Quick approval process",
+        "Funds disbursed directly to creditor"
+      ],
+      "benefits": [
+        "Potential savings up to 30% on interest",
+        "Improved cash flow",
+        "Simplified debt management",
+        "No additional collateral required"
+      ],
+      "last_updated": "2026-04-21"
+    },
+    "working_capital_against_equipment": {
+      "name": "Working Capital Against Equipment",
+      "type": "equipment_financing",
+      "product_code": "WCAE-006",
+      "description": "Working capital loan secured by existing equipment/machinery",
+      "interest_rate_min": 8.5,
+      "interest_rate_max": 12.5,
+      "loan_amount_min": 50000,
+      "loan_amount_max": 25000000,
+      "processing_fee_pct": 1.25,
+      "collateral_coverage_pct": 50,
+      "tenor_months": 36,
+      "use_cases": [
+        "Business expansion",
+        "Purchase of raw materials",
+        "Payment of statutory obligations",
+        "Debt repayment"
+      ],
+      "eligibility": {
+        "min_age": 25,
+        "max_age": 70,
+        "min_annual_revenue": 500000,
+        "business_operating_years": 2,
+        "min_credit_score": 700,
+        "existing_equipment_value_min": 200000
+      },
+      "approval_time_hours": 96,
+      "features": [
+        "Lower interest compared to unsecured loans",
+        "Quick approval and disbursal",
+        "Flexible repayment terms",
+        "Part-time repayment option",
+        "Seasonal moratorium available"
+      ],
+      "last_updated": "2026-04-21"
+    }
+  },
+  "generated_date": "2026-04-21",
+  "total_products": 6,
+  "product_categories": {
+    "asset_finance": 5,
+    "working_capital": 1
+  }
+}

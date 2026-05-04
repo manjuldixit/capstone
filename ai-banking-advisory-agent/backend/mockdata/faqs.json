@@ -1,0 +1,181 @@
+{
+  "faqs": [
+    {
+      "faq_id": "FAQ001",
+      "category": "Account Opening",
+      "question": "What documents are required to open a savings account?",
+      "answer": "You need Government ID (Aadhar/PAN/Passport), Address Proof (utility bill/rental agreement), and PAN card for accounts > Rs10,000.",
+      "helpful_count": 234
+    },
+    {
+      "faq_id": "FAQ002",
+      "category": "Account Opening",
+      "question": "How long does it take to open a savings account?",
+      "answer": "Savings account opening typically takes 1 business day. Current accounts may take 2-3 business days.",
+      "helpful_count": 187
+    },
+    {
+      "faq_id": "FAQ003",
+      "category": "Fees & Charges",
+      "question": "Are there any charges for opening a savings account?",
+      "answer": "No, account opening is FREE. There's no annual maintenance fee and no minimum balance requirement.",
+      "helpful_count": 412
+    },
+    {
+      "faq_id": "FAQ004",
+      "category": "Cards",
+      "question": "What should I do if my card is lost?",
+      "answer": "Report immediately via mobile app, website, or call 1-800-BANK-HELP. Your card will be blocked within 5 minutes. Replacement arrives in 5-7 days.",
+      "helpful_count": 567
+    },
+    {
+      "faq_id": "FAQ005",
+      "category": "Cards",
+      "question": "How do I check my credit card balance?",
+      "answer": "Check via mobile app, internet banking, SMS 'BAL', or call customer service. Your outstanding balance is updated daily.",
+      "helpful_count": 289
+    },
+    {
+      "faq_id": "FAQ006",
+      "category": "Cards",
+      "question": "What is the interest-free period on credit cards?",
+      "answer": "Basic cards offer 45-day interest-free period. Premium cards offer 60-day period. Interest is charged if full amount not paid by due date.",
+      "helpful_count": 341
+    },
+    {
+      "faq_id": "FAQ007",
+      "category": "Loans",
+      "question": "What is the minimum income required for a personal loan?",
+      "answer": "Minimum annual income is Rs30,000. Salaried and self-employed individuals are eligible. Credit score of 650+ required.",
+      "helpful_count": 456
+    },
+    {
+      "faq_id": "FAQ008",
+      "category": "Loans",
+      "question": "How long does personal loan approval take?",
+      "answer": "Pre-qualification takes 5 minutes. Full approval typically takes 24-48 hours after all documents are verified.",
+      "helpful_count": 523
+    },
+    {
+      "faq_id": "FAQ009",
+      "category": "Loans",
+      "question": "What is the maximum personal loan amount I can apply for?",
+      "answer": "Maximum personal loan amount is Rs2,50,000. Actual approval depends on your income, credit score, and other financial obligations.",
+      "helpful_count": 298
+    },
+    {
+      "faq_id": "FAQ010",
+      "category": "Deposits",
+      "question": "What is the interest rate on fixed deposits?",
+      "answer": "Interest rates range from 4.5% to 7% p.a. depending on tenure (1 month to 10 years). Senior citizens get 0.5% higher rate.",
+      "helpful_count": 634
+    },
+    {
+      "faq_id": "FAQ011",
+      "category": "Deposits",
+      "question": "Can I withdraw from a fixed deposit before maturity?",
+      "answer": "Yes, premature withdrawal is allowed. 0.5% penalty is charged on interest earned if withdrawn before maturity.",
+      "helpful_count": 445
+    },
+    {
+      "faq_id": "FAQ012",
+      "category": "Deposits",
+      "question": "Is my fixed deposit insured?",
+      "answer": "Yes, all deposits are covered under DICGC insurance up to Rs10,00,000 per account per bank.",
+      "helpful_count": 512
+    },
+    {
+      "faq_id": "FAQ013",
+      "category": "Transactions",
+      "question": "How long does a fund transfer take?",
+      "answer": "NEFT: 30 minutes to 2 hours. RTGS: 5-30 minutes. IMPS: Instant. UPI: Instant. Processing time may vary based on receiving bank.",
+      "helpful_count": 678
+    },
+    {
+      "faq_id": "FAQ014",
+      "category": "Transactions",
+      "question": "What is the maximum amount I can transfer via IMPS?",
+      "answer": "Maximum IMPS transfer limit is Rs2,00,000 per transaction. Daily limit may be Rs5,00,000 depending on your account type.",
+      "helpful_count": 389
+    },
+    {
+      "faq_id": "FAQ015",
+      "category": "Transactions",
+      "question": "Is there a charge for online fund transfers?",
+      "answer": "No, online fund transfers (NEFT/RTGS/IMPS) are FREE. No charges levied on the sender or receiver.",
+      "helpful_count": 723
+    },
+    {
+      "faq_id": "FAQ016",
+      "category": "Dispute Resolution",
+      "question": "How do I report a duplicate charge?",
+      "answer": "Report within 7 days via mobile app, website, or customer service. Investigation completes in 10 business days. Full refund if confirmed as error.",
+      "helpful_count": 412
+    },
+    {
+      "faq_id": "FAQ017",
+      "category": "Dispute Resolution",
+      "question": "What is the refund timeline for disputed transactions?",
+      "answer": "Merchant refunds: 5-7 days. Duplicate charges: 10-14 days. Dispute resolution: 15-21 days after investigation.",
+      "helpful_count": 356
+    },
+    {
+      "faq_id": "FAQ018",
+      "category": "Dispute Resolution",
+      "question": "Am I liable for unauthorized transactions?",
+      "answer": "No liability if reported within 24 hours of transaction. After 24 hours, liability may apply depending on negligence.",
+      "helpful_count": 567
+    },
+    {
+      "faq_id": "FAQ019",
+      "category": "Digital Banking",
+      "question": "How do I activate internet banking?",
+      "answer": "Visit your nearest branch with ID and address proof, or apply via mobile app. Activation is instant for app-based registration.",
+      "helpful_count": 245
+    },
+    {
+      "faq_id": "FAQ020",
+      "category": "Digital Banking",
+      "question": "Is internet banking secure?",
+      "answer": "Yes, we use 256-bit SSL encryption, 2-factor authentication, and fraud monitoring. Always use secure password and trusted device.",
+      "helpful_count": 834
+    },
+    {
+      "faq_id": "FAQ021",
+      "category": "Digital Banking",
+      "question": "How do I reset my internet banking password?",
+      "answer": "Visit online banking login page > Forgot Password > Verify via registered email/mobile. New password sent via SMS/email.",
+      "helpful_count": 523
+    },
+    {
+      "faq_id": "FAQ022",
+      "category": "Mobile Banking",
+      "question": "How do I download the mobile banking app?",
+      "answer": "Search 'BankName Mobile Banking' on Google Play Store or Apple App Store. Download, install, and login with your credentials.",
+      "helpful_count": 412
+    },
+    {
+      "faq_id": "FAQ023",
+      "category": "Mobile Banking",
+      "question": "What features are available in the mobile app?",
+      "answer": "View balance, transfer funds, pay bills, invest, apply for loans, track spending, set budgets, and contact support 24/7.",
+      "helpful_count": 356
+    },
+    {
+      "faq_id": "FAQ024",
+      "category": "Loans",
+      "question": "What are the documents required for a business loan?",
+      "answer": "Business registration, 2 years audited financials, 2 years IT returns, 6 months bank statements, GST registration (if applicable).",
+      "helpful_count": 289
+    },
+    {
+      "faq_id": "FAQ025",
+      "category": "Loans",
+      "question": "What is the interest rate for business loans?",
+      "answer": "Business loan rates range from 9% to 14% p.a. based on credit profile, business performance, and loan amount.",
+      "helpful_count": 367
+    }
+  ],
+  "total_faqs": 25,
+  "generated_date": "2026-04-19"
+}

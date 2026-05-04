@@ -1,0 +1,151 @@
+transaction_id,customer_id,transaction_type,amount,merchant,transaction_date,transaction_time,status,description
+TXN00001,CUST001,salary_credit,280619,Employer Payroll,2026-03-30,19:18,completed,SALARY_CREDIT: Employer Payroll
+TXN00002,CUST001,fund_transfer,152456,Fund Transfer,2026-01-23,13:57,completed,FUND_TRANSFER: Fund Transfer
+TXN00003,CUST001,credit_card_purchase,9568,Swiggy,2026-01-10,19:09,completed,CREDIT_CARD_PURCHASE: Swiggy
+TXN00004,CUST002,fund_transfer,43674,Fund Transfer,2026-01-02,14:21,completed,FUND_TRANSFER: Fund Transfer
+TXN00005,CUST002,cheque_deposit,54996,Cheque Deposit,2026-04-03,11:53,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00006,CUST002,merchant_payment,26024,Amazon,2025-11-22,14:30,failed,MERCHANT_PAYMENT: Amazon
+TXN00007,CUST003,debit_card_purchase,23552,Reliance Digital,2026-01-01,16:47,completed,DEBIT_CARD_PURCHASE: Reliance Digital
+TXN00008,CUST003,fund_transfer,265972,Fund Transfer,2026-02-21,12:27,completed,FUND_TRANSFER: Fund Transfer
+TXN00009,CUST003,cheque_deposit,4304,Cheque Deposit,2026-01-09,13:42,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00010,CUST004,merchant_payment,47959,Google Play,2026-03-17,17:34,completed,MERCHANT_PAYMENT: Google Play
+TXN00011,CUST004,debit_card_purchase,26322,School Fees,2025-10-31,08:05,failed,DEBIT_CARD_PURCHASE: School Fees
+TXN00012,CUST004,merchant_payment,9393,Zomato,2026-04-06,12:24,completed,MERCHANT_PAYMENT: Zomato
+TXN00013,CUST005,bill_payment,3967,Mobile,2026-01-25,13:48,completed,BILL_PAYMENT: Mobile
+TXN00014,CUST005,merchant_payment,18735,Ola,2026-03-29,15:01,completed,MERCHANT_PAYMENT: Ola
+TXN00015,CUST005,debit_card_purchase,23435,Spotify,2025-11-03,08:48,completed,DEBIT_CARD_PURCHASE: Spotify
+TXN00016,CUST006,debit_card_purchase,16705,Amazon,2025-11-10,10:15,completed,DEBIT_CARD_PURCHASE: Amazon
+TXN00017,CUST006,atm_withdrawal,36035,ATM Withdrawal,2026-03-20,17:13,pending,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00018,CUST006,cheque_deposit,92180,Cheque Deposit,2026-02-12,20:23,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00019,CUST007,atm_withdrawal,44707,ATM Withdrawal,2026-03-20,20:52,pending,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00020,CUST007,atm_withdrawal,25384,ATM Withdrawal,2025-11-21,08:59,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00021,CUST007,salary_credit,351883,Employer Payroll,2025-10-27,22:24,completed,SALARY_CREDIT: Employer Payroll
+TXN00022,CUST008,merchant_payment,47359,Spotify,2025-11-18,19:53,completed,MERCHANT_PAYMENT: Spotify
+TXN00023,CUST008,fund_transfer,63425,Fund Transfer,2025-10-22,20:19,completed,FUND_TRANSFER: Fund Transfer
+TXN00024,CUST008,credit_card_purchase,37588,Croma,2025-12-03,14:42,completed,CREDIT_CARD_PURCHASE: Croma
+TXN00025,CUST009,bill_payment,1629,Internet,2026-04-15,21:26,completed,BILL_PAYMENT: Internet
+TXN00026,CUST009,cheque_deposit,14333,Cheque Deposit,2025-12-29,13:40,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00027,CUST009,cheque_deposit,93208,Cheque Deposit,2026-03-10,14:11,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00028,CUST010,salary_credit,372915,Employer Payroll,2025-12-02,20:30,completed,SALARY_CREDIT: Employer Payroll
+TXN00029,CUST010,cheque_deposit,57591,Cheque Deposit,2025-11-18,12:20,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00030,CUST010,fund_transfer,445542,Fund Transfer,2026-03-27,12:56,completed,FUND_TRANSFER: Fund Transfer
+TXN00031,CUST011,cheque_deposit,32463,Cheque Deposit,2025-12-21,17:39,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00032,CUST011,merchant_payment,22546,Electricity Board,2026-01-25,10:31,completed,MERCHANT_PAYMENT: Electricity Board
+TXN00033,CUST011,fund_transfer,196030,Fund Transfer,2026-02-11,13:17,completed,FUND_TRANSFER: Fund Transfer
+TXN00034,CUST012,salary_credit,341394,Employer Payroll,2026-04-16,16:12,completed,SALARY_CREDIT: Employer Payroll
+TXN00035,CUST012,credit_card_purchase,16317,Apple Store,2025-12-14,16:48,failed,CREDIT_CARD_PURCHASE: Apple Store
+TXN00036,CUST012,fund_transfer,372078,Fund Transfer,2025-12-18,18:45,completed,FUND_TRANSFER: Fund Transfer
+TXN00037,CUST013,cheque_deposit,59243,Cheque Deposit,2026-04-14,09:18,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00038,CUST013,fund_transfer,222022,Fund Transfer,2025-10-23,11:19,completed,FUND_TRANSFER: Fund Transfer
+TXN00039,CUST013,bill_payment,8253,Internet,2025-12-31,19:35,completed,BILL_PAYMENT: Internet
+TXN00040,CUST014,bill_payment,6264,Mobile,2026-02-08,12:16,completed,BILL_PAYMENT: Mobile
+TXN00041,CUST014,fund_transfer,73258,Fund Transfer,2026-02-28,13:07,completed,FUND_TRANSFER: Fund Transfer
+TXN00042,CUST014,atm_withdrawal,17552,ATM Withdrawal,2025-12-16,12:46,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00043,CUST015,salary_credit,102704,Employer Payroll,2026-02-28,12:14,completed,SALARY_CREDIT: Employer Payroll
+TXN00044,CUST015,bill_payment,3439,Internet,2026-04-15,19:34,completed,BILL_PAYMENT: Internet
+TXN00045,CUST015,atm_withdrawal,22977,ATM Withdrawal,2026-04-05,16:18,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00046,CUST016,atm_withdrawal,46803,ATM Withdrawal,2026-03-23,21:00,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00047,CUST016,salary_credit,296099,Employer Payroll,2025-12-17,15:21,completed,SALARY_CREDIT: Employer Payroll
+TXN00048,CUST016,atm_withdrawal,8367,ATM Withdrawal,2025-12-17,09:52,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00049,CUST017,credit_card_purchase,26760,Spotify,2025-11-22,18:43,completed,CREDIT_CARD_PURCHASE: Spotify
+TXN00050,CUST017,debit_card_purchase,10443,School Fees,2026-01-31,09:15,completed,DEBIT_CARD_PURCHASE: School Fees
+TXN00051,CUST017,credit_card_purchase,37073,Swiggy,2025-12-06,14:28,completed,CREDIT_CARD_PURCHASE: Swiggy
+TXN00052,CUST018,cheque_deposit,39474,Cheque Deposit,2025-11-19,14:19,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00053,CUST018,debit_card_purchase,40452,Netflix,2026-02-24,18:13,failed,DEBIT_CARD_PURCHASE: Netflix
+TXN00054,CUST018,salary_credit,396254,Employer Payroll,2026-03-29,10:15,completed,SALARY_CREDIT: Employer Payroll
+TXN00055,CUST019,atm_withdrawal,41175,ATM Withdrawal,2026-03-09,08:26,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00056,CUST019,cheque_deposit,90857,Cheque Deposit,2025-11-17,15:18,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00057,CUST019,debit_card_purchase,15670,MakeMyTrip,2025-10-21,21:29,completed,DEBIT_CARD_PURCHASE: MakeMyTrip
+TXN00058,CUST020,credit_card_purchase,45548,Ola,2025-11-09,17:42,completed,CREDIT_CARD_PURCHASE: Ola
+TXN00059,CUST020,fund_transfer,232895,Fund Transfer,2026-03-20,16:14,completed,FUND_TRANSFER: Fund Transfer
+TXN00060,CUST020,atm_withdrawal,22408,ATM Withdrawal,2026-03-31,08:10,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00061,CUST021,salary_credit,361974,Employer Payroll,2025-11-24,22:18,completed,SALARY_CREDIT: Employer Payroll
+TXN00062,CUST021,cheque_deposit,16799,Cheque Deposit,2025-12-20,19:19,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00063,CUST021,merchant_payment,18341,Insurance Co,2025-12-13,15:05,failed,MERCHANT_PAYMENT: Insurance Co
+TXN00064,CUST022,debit_card_purchase,28813,BookMyShow,2025-11-15,12:01,failed,DEBIT_CARD_PURCHASE: BookMyShow
+TXN00065,CUST022,credit_card_purchase,15502,School Fees,2025-11-19,08:48,failed,CREDIT_CARD_PURCHASE: School Fees
+TXN00066,CUST022,salary_credit,352119,Employer Payroll,2026-04-08,20:48,completed,SALARY_CREDIT: Employer Payroll
+TXN00067,CUST023,atm_withdrawal,35834,ATM Withdrawal,2025-11-03,15:58,pending,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00068,CUST023,salary_credit,145152,Employer Payroll,2025-11-20,14:40,completed,SALARY_CREDIT: Employer Payroll
+TXN00069,CUST023,cheque_deposit,12459,Cheque Deposit,2025-12-19,13:26,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00070,CUST024,bill_payment,5760,Electricity,2026-03-08,13:26,completed,BILL_PAYMENT: Electricity
+TXN00071,CUST024,cheque_deposit,38277,Cheque Deposit,2025-10-31,14:52,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00072,CUST024,debit_card_purchase,30307,BookMyShow,2026-02-13,13:07,completed,DEBIT_CARD_PURCHASE: BookMyShow
+TXN00073,CUST025,merchant_payment,34224,Insurance Co,2025-12-21,14:03,completed,MERCHANT_PAYMENT: Insurance Co
+TXN00074,CUST025,fund_transfer,281811,Fund Transfer,2026-01-16,17:48,completed,FUND_TRANSFER: Fund Transfer
+TXN00075,CUST025,cheque_deposit,82473,Cheque Deposit,2025-12-26,20:03,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00076,CUST026,fund_transfer,150014,Fund Transfer,2025-11-29,10:59,completed,FUND_TRANSFER: Fund Transfer
+TXN00077,CUST026,salary_credit,279699,Employer Payroll,2025-10-22,15:07,completed,SALARY_CREDIT: Employer Payroll
+TXN00078,CUST026,debit_card_purchase,41789,Swiggy,2026-03-09,12:35,failed,DEBIT_CARD_PURCHASE: Swiggy
+TXN00079,CUST027,debit_card_purchase,36692,Spotify,2026-02-20,21:58,completed,DEBIT_CARD_PURCHASE: Spotify
+TXN00080,CUST027,credit_card_purchase,30741,Uber,2025-12-12,22:45,completed,CREDIT_CARD_PURCHASE: Uber
+TXN00081,CUST027,salary_credit,316795,Employer Payroll,2026-02-08,14:53,completed,SALARY_CREDIT: Employer Payroll
+TXN00082,CUST028,cheque_deposit,62394,Cheque Deposit,2026-02-15,15:35,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00083,CUST028,atm_withdrawal,30138,ATM Withdrawal,2025-11-16,16:47,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00084,CUST028,atm_withdrawal,9575,ATM Withdrawal,2026-01-02,13:59,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00085,CUST029,salary_credit,480204,Employer Payroll,2026-04-18,12:46,completed,SALARY_CREDIT: Employer Payroll
+TXN00086,CUST029,salary_credit,489078,Employer Payroll,2025-11-19,17:42,completed,SALARY_CREDIT: Employer Payroll
+TXN00087,CUST029,cheque_deposit,19976,Cheque Deposit,2025-12-25,16:30,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00088,CUST030,bill_payment,5946,Mobile,2025-12-23,22:20,completed,BILL_PAYMENT: Mobile
+TXN00089,CUST030,fund_transfer,375690,Fund Transfer,2026-02-16,17:24,completed,FUND_TRANSFER: Fund Transfer
+TXN00090,CUST030,fund_transfer,458797,Fund Transfer,2026-01-03,08:20,completed,FUND_TRANSFER: Fund Transfer
+TXN00091,CUST031,cheque_deposit,92935,Cheque Deposit,2026-01-11,14:42,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00092,CUST031,atm_withdrawal,37461,ATM Withdrawal,2026-03-17,16:37,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00093,CUST031,bill_payment,2144,Mobile,2026-03-24,16:58,completed,BILL_PAYMENT: Mobile
+TXN00094,CUST032,cheque_deposit,2511,Cheque Deposit,2026-03-13,14:55,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00095,CUST032,atm_withdrawal,9903,ATM Withdrawal,2026-02-10,13:39,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00096,CUST032,merchant_payment,43087,BookMyShow,2025-10-28,21:34,completed,MERCHANT_PAYMENT: BookMyShow
+TXN00097,CUST033,merchant_payment,21252,Electricity Board,2025-12-01,08:39,failed,MERCHANT_PAYMENT: Electricity Board
+TXN00098,CUST033,credit_card_purchase,15885,MakeMyTrip,2026-02-19,19:05,failed,CREDIT_CARD_PURCHASE: MakeMyTrip
+TXN00099,CUST033,merchant_payment,6951,Netflix,2025-12-26,10:44,failed,MERCHANT_PAYMENT: Netflix
+TXN00100,CUST034,salary_credit,65176,Employer Payroll,2026-04-07,13:50,completed,SALARY_CREDIT: Employer Payroll
+TXN00101,CUST034,debit_card_purchase,19726,Croma,2025-12-29,10:15,completed,DEBIT_CARD_PURCHASE: Croma
+TXN00102,CUST034,merchant_payment,37588,Zomato,2026-03-06,10:05,failed,MERCHANT_PAYMENT: Zomato
+TXN00103,CUST035,merchant_payment,41113,Swiggy,2025-12-12,22:37,failed,MERCHANT_PAYMENT: Swiggy
+TXN00104,CUST035,atm_withdrawal,20216,ATM Withdrawal,2025-11-06,12:29,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00105,CUST035,salary_credit,399616,Employer Payroll,2026-04-16,22:51,completed,SALARY_CREDIT: Employer Payroll
+TXN00106,CUST036,cheque_deposit,38200,Cheque Deposit,2025-10-27,16:10,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00107,CUST036,credit_card_purchase,29449,School Fees,2026-02-01,18:27,completed,CREDIT_CARD_PURCHASE: School Fees
+TXN00108,CUST036,salary_credit,289513,Employer Payroll,2026-01-31,11:24,completed,SALARY_CREDIT: Employer Payroll
+TXN00109,CUST037,cheque_deposit,14479,Cheque Deposit,2026-02-17,14:36,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00110,CUST037,bill_payment,9917,Internet,2025-10-21,12:01,completed,BILL_PAYMENT: Internet
+TXN00111,CUST037,merchant_payment,18488,School Fees,2025-10-25,20:47,completed,MERCHANT_PAYMENT: School Fees
+TXN00112,CUST038,debit_card_purchase,40241,Electricity Board,2026-02-04,20:51,failed,DEBIT_CARD_PURCHASE: Electricity Board
+TXN00113,CUST038,fund_transfer,328276,Fund Transfer,2026-01-18,11:40,completed,FUND_TRANSFER: Fund Transfer
+TXN00114,CUST038,fund_transfer,335525,Fund Transfer,2026-02-13,18:48,completed,FUND_TRANSFER: Fund Transfer
+TXN00115,CUST039,atm_withdrawal,46172,ATM Withdrawal,2025-11-09,18:02,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00116,CUST039,salary_credit,463459,Employer Payroll,2025-12-27,08:37,completed,SALARY_CREDIT: Employer Payroll
+TXN00117,CUST039,bill_payment,2653,Electricity,2026-02-02,13:47,completed,BILL_PAYMENT: Electricity
+TXN00118,CUST040,merchant_payment,12010,Uber,2025-12-01,22:23,completed,MERCHANT_PAYMENT: Uber
+TXN00119,CUST040,salary_credit,485406,Employer Payroll,2026-03-07,12:58,completed,SALARY_CREDIT: Employer Payroll
+TXN00120,CUST040,cheque_deposit,39184,Cheque Deposit,2026-01-22,20:07,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00121,CUST041,cheque_deposit,10369,Cheque Deposit,2026-03-13,20:14,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00122,CUST041,merchant_payment,37024,Spotify,2026-01-07,08:16,completed,MERCHANT_PAYMENT: Spotify
+TXN00123,CUST041,credit_card_purchase,30304,Ola,2025-11-20,14:52,completed,CREDIT_CARD_PURCHASE: Ola
+TXN00124,CUST042,bill_payment,2275,Water,2025-12-19,08:39,completed,BILL_PAYMENT: Water
+TXN00125,CUST042,bill_payment,4126,Electricity,2025-11-07,21:29,completed,BILL_PAYMENT: Electricity
+TXN00126,CUST042,salary_credit,390388,Employer Payroll,2026-01-04,09:08,completed,SALARY_CREDIT: Employer Payroll
+TXN00127,CUST043,debit_card_purchase,2938,Electricity Board,2026-03-20,09:15,completed,DEBIT_CARD_PURCHASE: Electricity Board
+TXN00128,CUST043,atm_withdrawal,30470,ATM Withdrawal,2026-01-14,18:47,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00129,CUST043,merchant_payment,38991,Uber,2026-01-02,18:06,failed,MERCHANT_PAYMENT: Uber
+TXN00130,CUST044,cheque_deposit,81194,Cheque Deposit,2026-01-04,12:02,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00131,CUST044,bill_payment,4059,Mobile,2025-12-26,11:54,completed,BILL_PAYMENT: Mobile
+TXN00132,CUST044,bill_payment,2127,Internet,2025-11-30,22:41,completed,BILL_PAYMENT: Internet
+TXN00133,CUST045,bill_payment,1492,Mobile,2026-02-07,11:07,completed,BILL_PAYMENT: Mobile
+TXN00134,CUST045,cheque_deposit,12515,Cheque Deposit,2025-10-31,11:41,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00135,CUST045,debit_card_purchase,3814,Swiggy,2026-03-17,20:36,completed,DEBIT_CARD_PURCHASE: Swiggy
+TXN00136,CUST046,fund_transfer,45971,Fund Transfer,2025-11-28,11:37,completed,FUND_TRANSFER: Fund Transfer
+TXN00137,CUST046,fund_transfer,436273,Fund Transfer,2026-02-18,13:49,completed,FUND_TRANSFER: Fund Transfer
+TXN00138,CUST046,atm_withdrawal,44058,ATM Withdrawal,2026-02-07,21:09,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00139,CUST047,atm_withdrawal,40403,ATM Withdrawal,2026-03-05,09:42,completed,ATM_WITHDRAWAL: ATM Withdrawal
+TXN00140,CUST047,debit_card_purchase,9137,Croma,2026-02-17,17:20,completed,DEBIT_CARD_PURCHASE: Croma
+TXN00141,CUST047,debit_card_purchase,11919,Flipkart,2026-03-17,19:26,completed,DEBIT_CARD_PURCHASE: Flipkart
+TXN00142,CUST048,credit_card_purchase,49367,Electricity Board,2025-12-25,20:23,completed,CREDIT_CARD_PURCHASE: Electricity Board
+TXN00143,CUST048,credit_card_purchase,30122,Swiggy,2025-11-12,08:46,failed,CREDIT_CARD_PURCHASE: Swiggy
+TXN00144,CUST048,salary_credit,290146,Employer Payroll,2025-11-05,08:03,completed,SALARY_CREDIT: Employer Payroll
+TXN00145,CUST049,cheque_deposit,53140,Cheque Deposit,2025-12-30,18:06,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00146,CUST049,cheque_deposit,93875,Cheque Deposit,2025-12-26,09:57,completed,CHEQUE_DEPOSIT: Cheque Deposit
+TXN00147,CUST049,credit_card_purchase,21609,Uber,2026-04-02,10:17,failed,CREDIT_CARD_PURCHASE: Uber
+TXN00148,CUST050,bill_payment,6740,Internet,2025-12-23,16:38,completed,BILL_PAYMENT: Internet
+TXN00149,CUST050,merchant_payment,6999,Netflix,2025-11-02,18:56,failed,MERCHANT_PAYMENT: Netflix
+TXN00150,CUST050,fund_transfer,235480,Fund Transfer,2025-12-24,22:14,completed,FUND_TRANSFER: Fund Transfer

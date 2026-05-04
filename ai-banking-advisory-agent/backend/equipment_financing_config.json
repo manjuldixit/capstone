@@ -1,0 +1,213 @@
+{
+  "agent_config": {
+    "name": "Equipment Financing AI Banking Support & Advisory Agent",
+    "version": "1.0",
+    "last_updated": "2026-04-21",
+    "description": "Non-Transactional Agentic AI System for Equipment Financing Support & Advisory",
+    "deployment_model": "Cloud-based Conversational AI",
+    "service_channels": [
+      "Web Chat",
+      "Mobile App",
+      "Email Bot",
+      "Future: WhatsApp Business"
+    ],
+    "sla_targets": {
+      "uptime_percentage": 99.9,
+      "response_time_p99_seconds": 3,
+      "monthly_downtime_minutes": 43.2
+    }
+  },
+  "llm_config": {
+    "model": "claude-3-5-sonnet-20241022",
+    "max_tokens": 1024,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "system_prompt_version": "1.0"
+  },
+  "products": {
+    "equipment_term_loan": {
+      "code": "ETL-001",
+      "name": "Equipment Term Loan",
+      "interest_rate_range": "7.5-11.5%",
+      "loan_amount_range": "₹1L - ₹5Cr",
+      "tenure_range": "24-180 months",
+      "key_features": [
+        "Flexible tenure up to 15 years",
+        "85% LTV collateral coverage",
+        "Direct disbursement to seller",
+        "Equipment insurance mandatory"
+      ],
+      "approval_timeline_days": 10
+    },
+    "equipment_lease": {
+      "code": "EL-002",
+      "name": "Equipment Lease",
+      "lease_rate_range": "6.5-10.5%",
+      "lease_amount_range": "₹50K - ₹10Cr",
+      "tenure_range": "36-120 months",
+      "lease_types": [
+        "Finance Lease",
+        "Operating Lease",
+        "Hire Purchase"
+      ],
+      "key_features": [
+        "Low upfront capital",
+        "Maintenance included",
+        "Technology refresh options",
+        "Tax benefits"
+      ],
+      "approval_timeline_days": 8
+    },
+    "equipment_line_of_credit": {
+      "code": "ELC-003",
+      "name": "Equipment Line of Credit",
+      "interest_rate_range": "8.0-12.0%",
+      "credit_limit_range": "₹1L - ₹2.5Cr",
+      "processing_fee_percent": 1.0,
+      "key_features": [
+        "Revolving credit line",
+        "Interest on utilized amount only",
+        "Quick 24-hour disbursement",
+        "No prepayment penalty"
+      ],
+      "approval_timeline_days": 6
+    },
+    "equipment_refinance_loan": {
+      "code": "ERL-005",
+      "name": "Equipment Refinance Loan",
+      "interest_rate_range": "6.0-10.0%",
+      "loan_amount_range": "₹1L - ₹5Cr",
+      "processing_fee_percent": 0.75,
+      "key_features": [
+        "Lower interest rates",
+        "Extended tenure to reduce EMI",
+        "No prepayment charges",
+        "Quick 72-hour approval"
+      ],
+      "approval_timeline_days": 3
+    },
+    "vendor_financing_program": {
+      "code": "VFP-004",
+      "name": "Vendor Financing Program",
+      "interest_rate_range": "6.5-10.0%",
+      "financing_amount_range": "₹1L - ₹10Cr",
+      "vendor_commission_percent": 1.5,
+      "key_features": [
+        "Instant pre-approval",
+        "White-label branding",
+        "Automated processes",
+        "Bulk financing support"
+      ],
+      "approval_timeline_hours": 24
+    }
+  },
+  "eligibility_criteria": {
+    "business_operating_years_min": 2,
+    "annual_revenue_min": 500000,
+    "credit_score_min": 700,
+    "age_min": 25,
+    "age_max": 70,
+    "business_types_supported": [
+      "Manufacturing",
+      "Construction",
+      "Trading",
+      "Services",
+      "Agriculture",
+      "Healthcare",
+      "IT",
+      "Retail",
+      "Logistics"
+    ]
+  },
+  "document_requirements": {
+    "business_documents": [
+      "GST Certificate / Business Registration",
+      "PAN & Address Proof",
+      "Board Resolution (for companies)"
+    ],
+    "financial_documents": [
+      "2 years Income Tax Returns",
+      "Audited Balance Sheet & P&L",
+      "6 months Bank Statements",
+      "GST Returns (last 6 months)"
+    ],
+    "equipment_documents": [
+      "Equipment Quotation / Invoice",
+      "Equipment Specifications",
+      "Seller's Authorization"
+    ],
+    "collateral_documents": [
+      "Ownership Proof",
+      "Insurance Policy",
+      "Valuation Certificate (if applicable)"
+    ]
+  },
+  "safety_guardrails": {
+    "block_transactions": true,
+    "pii_detection_enabled": true,
+    "aml_compliance_check": true,
+    "escalation_on_ambiguity_threshold": 0.3,
+    "confidence_threshold": 0.7,
+    "max_escalation_wait_hours": 2,
+    "transaction_block_keywords": [
+      "transfer",
+      "pay",
+      "send",
+      "move funds",
+      "approve",
+      "process",
+      "authorize",
+      "withdraw"
+    ]
+  },
+  "escalation_criteria": {
+    "high_value_transactions": "> ₹2 Crore",
+    "complex_scenarios": "Multiple products, unusual structure",
+    "policy_exceptions": "Non-standard request",
+    "fraud_suspected": "AML/KYC red flags",
+    "customer_explicit_request": "Always honor",
+    "ambiguous_intent": "> 30% uncertainty",
+    "specialist_needed": "Financial/Legal/Tax advice"
+  },
+  "knowledge_base": {
+    "version": "1.0",
+    "last_updated": "2026-04-21",
+    "products_count": 6,
+    "customers_count": 10,
+    "faqs_count": 50,
+    "update_frequency_hours": 24,
+    "retention_policy": {
+      "conversation_logs": "90 days",
+      "audit_logs_pii": "30 days encrypted",
+      "analytics": "2 years"
+    }
+  },
+  "performance_metrics": {
+    "average_response_time_ms": 1500,
+    "intent_classification_accuracy_target": 0.90,
+    "hallucination_rate_target": 0.02,
+    "escalation_success_rate_target": 0.95,
+    "customer_satisfaction_target": 0.92
+  },
+  "monitoring_alerts": {
+    "error_rate_threshold": 0.01,
+    "hallucination_detection": true,
+    "pii_leak_alert": "immediate",
+    "aml_flag_alert": "immediate",
+    "escalation_queue_depth_alert": 100
+  },
+  "compliance": {
+    "regulatory_framework": [
+      "GDPR",
+      "CCPA",
+      "KYC Regulations",
+      "AML/CFT Regulations",
+      "Fair Lending Laws",
+      "Banking Regulations"
+    ],
+    "data_classification": "Sensitive (PII, Financial Data, Business Information)",
+    "encryption": "AES-256 at rest, TLS 1.3 in transit",
+    "audit_frequency": "Monthly",
+    "penetration_testing_frequency": "Quarterly"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "customers": [
+    {
+      "customer_id": "EQ_CUST001",
+      "name": "Amit Manufacturing Ltd",
+      "type": "sme_manufacturing",
+      "contact_person": "Amit Verma",
+      "age": 45,
+      "city": "Bangalore",
+      "account_type": "business",
+      "annual_revenue": 5000000,
+      "credit_score": 780,
+      "business_type": "Manufacturing",
+      "products_held": [
+        "equipment_term_loan",
+        "business_checking"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": true,
+      "business_operating_years": 8,
+      "existing_equipment_value": 2500000,
+      "account_opened_date": "2021-03-15"
+    },
+    {
+      "customer_id": "EQ_CUST002",
+      "name": "Priya Construction Equipment Pvt Ltd",
+      "type": "sme_construction",
+      "contact_person": "Priya Sharma",
+      "age": 38,
+      "city": "Mumbai",
+      "account_type": "business",
+      "annual_revenue": 8000000,
+      "credit_score": 745,
+      "business_type": "Construction",
+      "products_held": [
+        "equipment_lease",
+        "business_savings"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": false,
+      "business_operating_years": 6,
+      "existing_equipment_value": 4000000,
+      "account_opened_date": "2020-07-22"
+    },
+    {
+      "customer_id": "EQ_CUST003",
+      "name": "TechProcure Solutions",
+      "type": "large_corporation",
+      "contact_person": "Rajesh Iyer",
+      "age": 52,
+      "city": "Delhi",
+      "account_type": "business",
+      "annual_revenue": 250000000,
+      "credit_score": 850,
+      "business_type": "IT Services",
+      "products_held": [
+        "equipment_line_of_credit",
+        "equipment_term_loan",
+        "business_savings"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": true,
+      "is_eligible_for_vendor_financing": true,
+      "business_operating_years": 15,
+      "existing_equipment_value": 50000000,
+      "account_opened_date": "2015-06-10"
+    },
+    {
+      "customer_id": "EQ_CUST004",
+      "name": "Rajesh Traders & Distributors",
+      "type": "equipment_dealer",
+      "contact_person": "Rajesh Kumar",
+      "age": 48,
+      "city": "Pune",
+      "account_type": "business",
+      "annual_revenue": 15000000,
+      "credit_score": 810,
+      "business_type": "Equipment Distribution",
+      "products_held": [
+        "vendor_financing_program",
+        "business_checking"
+      ],
+      "is_eligible_for_vendor_financing_program": true,
+      "is_eligible_for_bulk_financing": true,
+      "business_operating_years": 12,
+      "vendor_registration": "VENDOR_REG_2018",
+      "account_opened_date": "2018-04-05"
+    },
+    {
+      "customer_id": "EQ_CUST005",
+      "name": "Agricultural Machinery Corp",
+      "type": "sme_agriculture",
+      "contact_person": "Harish Patel",
+      "age": 55,
+      "city": "Gujarat",
+      "account_type": "business",
+      "annual_revenue": 3500000,
+      "credit_score": 720,
+      "business_type": "Agriculture",
+      "products_held": [
+        "equipment_term_loan"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": false,
+      "business_operating_years": 20,
+      "existing_equipment_value": 1500000,
+      "account_opened_date": "2016-01-20"
+    },
+    {
+      "customer_id": "EQ_CUST006",
+      "name": "Procurement Manager Corp",
+      "type": "procurement_manager",
+      "contact_person": "Meera Singh",
+      "age": 42,
+      "city": "Hyderabad",
+      "account_type": "business",
+      "annual_revenue": 500000000,
+      "credit_score": 880,
+      "business_type": "Manufacturing",
+      "products_held": [
+        "equipment_term_loan",
+        "equipment_line_of_credit"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": true,
+      "is_eligible_for_bulk_financing": true,
+      "business_operating_years": 22,
+      "existing_equipment_value": 100000000,
+      "account_opened_date": "2014-09-12"
+    },
+    {
+      "customer_id": "EQ_CUST007",
+      "name": "Medical Equipment Supplies Ltd",
+      "type": "sme_healthcare",
+      "contact_person": "Dr. Vijay Kumar",
+      "age": 50,
+      "city": "Chennai",
+      "account_type": "business",
+      "annual_revenue": 4000000,
+      "credit_score": 770,
+      "business_type": "Healthcare",
+      "products_held": [
+        "equipment_lease"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": true,
+      "business_operating_years": 10,
+      "existing_equipment_value": 3000000,
+      "account_opened_date": "2019-05-18"
+    },
+    {
+      "customer_id": "EQ_CUST008",
+      "name": "Printing & Packaging Solutions",
+      "type": "sme_printing",
+      "contact_person": "Sanjay Reddy",
+      "age": 46,
+      "city": "Ahmedabad",
+      "account_type": "business",
+      "annual_revenue": 6000000,
+      "credit_score": 735,
+      "business_type": "Printing",
+      "products_held": [
+        "equipment_refinance_loan"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": false,
+      "is_eligible_for_line_of_credit": true,
+      "business_operating_years": 14,
+      "existing_equipment_value": 4500000,
+      "existing_loan_amount": 2500000,
+      "account_opened_date": "2017-02-28"
+    },
+    {
+      "customer_id": "EQ_CUST009",
+      "name": "Transportation & Logistics Hub",
+      "type": "sme_logistics",
+      "contact_person": "Govind Singh",
+      "age": 54,
+      "city": "Kolkata",
+      "account_type": "business",
+      "annual_revenue": 12000000,
+      "credit_score": 765,
+      "business_type": "Logistics",
+      "products_held": [
+        "equipment_term_loan",
+        "equipment_line_of_credit"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": true,
+      "business_operating_years": 18,
+      "existing_equipment_value": 8000000,
+      "account_opened_date": "2018-11-10"
+    },
+    {
+      "customer_id": "EQ_CUST010",
+      "name": "HVAC Systems & Services",
+      "type": "sme_services",
+      "contact_person": "Neha Verma",
+      "age": 40,
+      "city": "Jaipur",
+      "account_type": "business",
+      "annual_revenue": 2500000,
+      "credit_score": 690,
+      "business_type": "Services",
+      "products_held": [
+        "equipment_term_loan"
+      ],
+      "is_eligible_for_equipment_term_loan": true,
+      "is_eligible_for_equipment_lease": true,
+      "is_eligible_for_line_of_credit": false,
+      "business_operating_years": 7,
+      "existing_equipment_value": 800000,
+      "account_opened_date": "2020-08-15"
+    }
+  ],
+  "generated_date": "2026-04-21",
+  "total_customers": 10,
+  "customer_segments": {
+    "sme_manufacturing": 2,
+    "sme_construction": 1,
+    "large_corporation": 1,
+    "equipment_dealer": 1,
+    "sme_agriculture": 1,
+    "procurement_manager": 1,
+    "sme_healthcare": 1,
+    "sme_printing": 1,
+    "sme_logistics": 1,
+    "sme_services": 1
+  }
+}

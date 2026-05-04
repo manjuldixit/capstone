@@ -1,0 +1,76 @@
+[
+  {
+    "doc_id": "product_commercial_equipment_financing",
+    "content": "Product: Commercial Equipment Financing\n\nDescription: Flexible financing for commercial equipment purchases with competitive rates\n\nRate Range: 6.5% - 9.5% APR\n\nTerm Length: 36 - 60 months\nStandard: 48 months\n\nCredit Score Requirements:\n- Minimum: 620\n- Preferred: 700\n- Excellent: 750\n\nEligible Equipment Types:\n\u2022 Industrial machinery\n\u2022 Commercial vehicles\n\u2022 Manufacturing equipment\n\u2022 Production lines\n\u2022 Business equipment",
+    "metadata": {
+      "source": "products",
+      "product_id": "commercial_equipment_financing",
+      "product_name": "Commercial Equipment Financing",
+      "type": "product_overview"
+    }
+  },
+  {
+    "doc_id": "product_construction_equipment_leasing",
+    "content": "Product: Construction Equipment Leasing\n\nDescription: Long-term leasing solutions for construction equipment with predictable costs\n\nRate Range: 5.5% - 8.5% APR\n\nTerm Length: 60 - 84 months\nStandard: 72 months\n\nCredit Score Requirements:\n- Minimum: 600\n- Preferred: 680\n- Excellent: 720\n\nEligible Equipment Types:\n\u2022 Heavy machinery\n\u2022 Cranes\n\u2022 Excavators\n\u2022 Dozers\n\u2022 Specialized construction equipment",
+    "metadata": {
+      "source": "products",
+      "product_id": "construction_equipment_leasing",
+      "product_name": "Construction Equipment Leasing",
+      "type": "product_overview"
+    }
+  },
+  {
+    "doc_id": "product_used_equipment_purchase",
+    "content": "Product: Used Equipment Purchase Financing\n\nDescription: Financing for pre-owned equipment with competitive rates for established businesses\n\nRate Range: 7.5% - 11.0% APR\n\nTerm Length: 24 - 48 months\nStandard: 36 months\n\nCredit Score Requirements:\n- Minimum: 650\n- Preferred: 720\n- Excellent: 760\n\nEligible Equipment Types:\n\u2022 Pre-owned machinery\n\u2022 Refurbished equipment\n\u2022 Secondary market equipment\n\u2022 Legacy equipment",
+    "metadata": {
+      "source": "products",
+      "product_id": "used_equipment_purchase",
+      "product_name": "Used Equipment Purchase Financing",
+      "type": "product_overview"
+    }
+  },
+  {
+    "doc_id": "eligibility_credit_tier_excellent",
+    "content": "Credit Score Tier: EXCELLENT\n\nScore Requirement: 750 or higher\n\nDescription: Best rates and terms available\n\nMaximum Loan Percentage: 100%\n\nBenefits: N/A",
+    "metadata": {
+      "source": "eligibility",
+      "eligibility_type": "credit_score_tier",
+      "tier": "excellent"
+    }
+  },
+  {
+    "doc_id": "eligibility_credit_tier_good",
+    "content": "Credit Score Tier: GOOD\n\nScore Requirement: 700 or higher\n\nDescription: Competitive rates and favorable terms\n\nMaximum Loan Percentage: 90%\n\nBenefits: N/A",
+    "metadata": {
+      "source": "eligibility",
+      "eligibility_type": "credit_score_tier",
+      "tier": "good"
+    }
+  },
+  {
+    "doc_id": "eligibility_credit_tier_standard",
+    "content": "Credit Score Tier: STANDARD\n\nScore Requirement: 620 or higher\n\nDescription: Standard rates and terms\n\nMaximum Loan Percentage: 75%\n\nBenefits: N/A",
+    "metadata": {
+      "source": "eligibility",
+      "eligibility_type": "credit_score_tier",
+      "tier": "standard"
+    }
+  },
+  {
+    "doc_id": "eligibility_credit_tier_fair",
+    "content": "Credit Score Tier: FAIR\n\nScore Requirement: 600 or higher\n\nDescription: Higher rates, requires specialist review\n\nMaximum Loan Percentage: 60%\n\nBenefits: N/A",
+    "metadata": {
+      "source": "eligibility",
+      "eligibility_type": "credit_score_tier",
+      "tier": "fair"
+    }
+  },
+  {
+    "doc_id": "eligibility_business_requirements",
+    "content": "Business Eligibility Requirements:\n\nYears in Business: Minimum N/A years\n\nAnnual Revenue: Minimum $N/A\n\nMonthly Revenue: Minimum $N/A\n\nRequired Documentation:\nNone specified",
+    "metadata": {
+      "source": "eligibility",
+      "eligibility_type": "business_requirements"
+    }
+  }
+]
