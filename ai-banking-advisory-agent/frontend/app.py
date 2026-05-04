@@ -11,12 +11,12 @@ SCENARIO_FILE = Path(__file__).resolve().parents[1] / "backend" / "mockdata" / "
 
 def init_page() -> None:
     st.set_page_config(
-        page_title="ai-banking-advisory-agent Equipment Financing Agent",
+        page_title="AI Advisory Agent Equipment Financing",
         page_icon="💼",
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    st.title("ai-banking-advisory-agent Equipment Financing Agent")
+    st.title("AI Advisory Agent Equipment Financing")
     st.markdown(
         "Interact with the Phase 8/9 deployment-ready agent, collect feedback, and inspect adaptive behavior in real time."
     )

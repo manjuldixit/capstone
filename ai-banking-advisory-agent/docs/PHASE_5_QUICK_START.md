@@ -13,14 +13,14 @@ This phase adds tool usage capability to the equipment financing agent:
 
 - `capstone/ai-banking-advisory-agent/backend/toolbox.py` — tool schemas, selection, safety checks
 - `capstone/ai-banking-advisory-agent/backend/tool_agent.py` — tool-enabled agent logic
-- `capstone/ai-banking-advisory-agent/backend/run_phase5_tool_demo.py` — demo runner
+- `capstone/ai-banking-advisory-agent/backend/run_phase5_tool.py` — demo runner
 - `capstone/ai-banking-advisory-agent/docs/PHASE_5_QUICK_START.md` — this guide
 
 ## Run the Phase 5 demo
 
 ```bash
 cd capstone/ai-banking-advisory-agent/backend
-python run_phase5_tool_demo.py
+python run_phase5_tool.py
 ```
 
 Expected output:

@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ### Option 1: Demo Script (Recommended)
 ```bash
 cd ai-banking-advisory-agent/backend
-python run_phase2_demo.py
+python run_phase2_lang_graph_agent.py
 ```
 
 **Output:**
@@ -78,7 +78,7 @@ Average Confidence: 0.61
 ai-banking-advisory-agent/
 ├── backend/
 │   ├── langgraph_agent.py          ← Core agent (450+ lines)
-│   ├── run_phase2_demo.py          ← Demo script (run this)
+│   ├── run_phase2_lang_graph_agent.py          ← Demo script (run this)
 │   ├── requirements.txt            ← Dependencies
 │   └── baseline_logs.json          ← Generated on run
 │
@@ -272,7 +272,7 @@ agent.export_logs("baseline_logs.json")
 
 - [ ] Python 3.10+ installed
 - [ ] Dependencies installed (`pip install -r requirements.txt`)
-- [ ] Can run: `python run_phase2_demo.py`
+- [ ] Can run: `python run_phase2_lang_graph_agent.py`
 - [ ] Output shows 7 queries executed
 - [ ] `baseline_logs.json` created in backend folder
 - [ ] Pass rate shown as 71%

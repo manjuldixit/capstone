@@ -66,7 +66,7 @@ for r in results:
 ### 3. Run Full Comparison (Phase 2 vs Phase 4)
 
 ```bash
-python run_phase4_compare.py --force-reinit
+python run_phase4_rag.py --force-reinit
 ```
 
 **Output**:
@@ -138,7 +138,7 @@ result = agent.process_query("What rates do you offer?")
 # result includes: response, confidence, sources, retrieval_stats
 ```
 
-#### 4. **Comparison Runner** (`run_phase4_compare.py`)
+#### 4. **Comparison Runner** (`run_phase4_rag.py`)
 Side-by-side evaluation:
 - Loads test queries from evaluation set
 - Runs through baseline agent (no retrieval)
@@ -280,7 +280,7 @@ capstone/ai-banking-advisory-agent/backend/
 ├── document_processor.py               ← NEW: Chunk knowledge base
 ├── vector_store.py                     ← NEW: Chroma + retrieval
 ├── rag_agent.py                        ← NEW: RAG agent (extends baseline)
-├── run_phase4_compare.py              ← NEW: Phase 2 vs Phase 4 comparison
+├── run_phase4_rag.py              ← NEW: Phase 2 vs Phase 4 comparison
 │
 ├── data/
 │   ├── knowledge_base.json
@@ -305,7 +305,7 @@ pip install chromadb sentence-transformers
 ```bash
 # Clear and reinit
 rm -rf data/chroma_db
-python run_phase4_compare.py --force-reinit
+python run_phase4_rag.py --force-reinit
 ```
 
 ### Issue: Memory usage too high

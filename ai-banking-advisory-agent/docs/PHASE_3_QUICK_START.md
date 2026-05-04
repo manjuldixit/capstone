@@ -20,14 +20,14 @@ Run Phase 3 comparison (mock):
 
 ```bash
 cd capstone/ai-banking-advisory-agent/backend
-python run_phase3_compare.py --provider=mock
+python run_phase3_llm_prompts.py --provider=mock
 ```
 
 Run Phase 3 with OpenAI:
 
 ```bash
 export OPENAI_API_KEY="sk-..."
-python run_phase3_compare.py --provider=openai
+python run_phase3_llm_prompts.py --provider=openai
 ```
 
 Outputs

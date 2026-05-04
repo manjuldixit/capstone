@@ -1,5 +1,5 @@
 """
-Phase 2 LangGraph Baseline Agent - Demo & Test Script
+Phase 2 LangGraph Agent
 
 This script:
 1. Initializes the baseline agent

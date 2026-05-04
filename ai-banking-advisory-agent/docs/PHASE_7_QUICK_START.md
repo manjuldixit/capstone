@@ -13,14 +13,14 @@ This phase introduces adaptive behavior based on user feedback:
 
 - `capstone/ai-banking-advisory-agent/backend/feedback_manager.py` — feedback storage and adaptation cues
 - `capstone/ai-banking-advisory-agent/backend/adaptive_agent.py` — agent that adapts using feedback
-- `capstone/ai-banking-advisory-agent/backend/run_phase7_adaptive_demo.py` — before/after adaptive demo runner
+- `capstone/ai-banking-advisory-agent/backend/run_phase7_adaptive.py` — before/after adaptive demo runner
 - `capstone/ai-banking-advisory-agent/docs/PHASE_7_QUICK_START.md` — this guide
 
 ## Run the Phase 7 demo
 
 ```bash
 cd capstone/ai-banking-advisory-agent/backend
-python run_phase7_adaptive_demo.py
+python run_phase7_adaptive.py
 ```
 
 Expected output:

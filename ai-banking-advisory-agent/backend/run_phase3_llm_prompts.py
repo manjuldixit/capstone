@@ -5,8 +5,8 @@ Phase 3 comparison runner.
 - Produces a JSON export with per-query, per-prompt results for analysis
 
 Usage:
-    python run_phase3_compare.py --provider=mock
-    python run_phase3_compare.py --provider=openai
+    python run_phase3_llm_prompts.py --provider=mock
+    python run_phase3_llm_prompts.py --provider=openai
 
 If no API key is provided for chosen provider, the mock fallback will be used.
 """

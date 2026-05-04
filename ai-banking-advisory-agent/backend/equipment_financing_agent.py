@@ -6,7 +6,7 @@ This module implements a safe, compliant conversational AI agent for equipment f
 customers. It provides product education, eligibility assessment, documentation guidance,
 and intelligent issue triage while maintaining strict safety guardrails.
 
-Author: AgenticAI Development Team
+Author: Manjul Dixit
 Last Updated: April 21, 2026
 """
 

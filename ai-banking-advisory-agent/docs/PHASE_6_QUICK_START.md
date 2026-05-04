@@ -13,14 +13,14 @@ This phase adds multi-turn memory, planning assistance, and improved conversatio
 
 - `capstone/ai-banking-advisory-agent/backend/memory_manager.py` — memory storage and retrieval logic
 - `capstone/ai-banking-advisory-agent/backend/memory_agent.py` — Phase 6 agent using memory and planning
-- `capstone/ai-banking-advisory-agent/backend/run_phase6_memory_demo.py` — multi-turn demo runner
+- `capstone/ai-banking-advisory-agent/backend/run_phase6_memory.py` — multi-turn demo runner
 - `capstone/ai-banking-advisory-agent/docs/PHASE_6_QUICK_START.md` — this guide
 
 ## Run the Phase 6 demo
 
 ```bash
 cd capstone/ai-banking-advisory-agent/backend
-python run_phase6_memory_demo.py
+python run_phase6_memory.py
 ```
 
 Expected output:
